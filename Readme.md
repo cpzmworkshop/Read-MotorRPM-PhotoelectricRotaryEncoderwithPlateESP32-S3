@@ -1,7 +1,4 @@
-# Ekstrak Pembacaan dan Kalkulasi Nilai RPM Motor
-
-Sumber: `main.cpp` - ESP32-S3 ESP-NOW Sender untuk Ship Model Control System
-
+Pembacaan dan Kalkulasi Nilai RPM Motor Menggunakan Sensor PhotoElectric Rotary Encoder with Plate dan Mikrokontroller ESP32-S3
 ---
 
 ## 1. Konfigurasi Rotary Encoder (Pin & Variabel)
@@ -190,3 +187,4 @@ struct DatatoSend {
 - Menggunakan interrupt **RISING edge** untuk mendeteksi pulse
 - **Moving average** (10 sampel) digunakan untuk smoothing data
 - Data RPM disimpan sebagai `uint16_t` untuk pengiriman via ESP-NOW
+
